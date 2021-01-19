@@ -7,26 +7,26 @@ void main(){
 
 // =============== ตัวเเปล ===============
 
-char username[20], email[50], password[20] ,repassword[20];
-int phone[10];
+char username, email, password, repassword;
+int phone;
 
 // =============== ตัวเเปล ===============
 
 // =============== การรับข้อมูล ===============
 
-printf("Your username is:");
+printf("Your username is : ");
 scanf("%s",&username);
 
-printf("Your username is:");
+printf("Your username is : ");
 scanf("%s",&email);
 
-printf("Your username is:");
+printf("Your username is : ");
 scanf("%s",&password);
 
-printf("Your username is:");
+printf("Your username is : ");
 scanf("%s",&repassword);
 
-printf("Your username is:");
+printf("Your username is : ");
 scanf("%d",&phone);
 
 
@@ -35,6 +35,10 @@ scanf("%d",&phone);
 // =============== การเเสดงผมข้อมูล ===============
 
 printf("Successs \n");
-printf("Your username is : %s",&username);
+printf("You username is : %s",&username);
+printf("You email is : %s",&email);
+
+
 return 0;
+
 }
