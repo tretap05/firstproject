@@ -1,0 +1,10 @@
+C:\Users\Admins\Desktop\firsproject
+git init
+git add .
+git commit -m "first commit"
+git config --global user.email "s6302041620087@email.kmutnb.ac.th"
+git config --global user.name "tretap05"
+git commit -m "first commit"
+git remote add origin origin https://github.com/tretap05/firstproject.git
+git push -u origin master
+git push --force origin master
