@@ -10,3 +10,29 @@
     <p>My nickname is Ti tee</p>
 </body>
 </html>
+#include <stdio.h>
+#include <stdbool.h>
+
+    void main(){
+
+        int sum,byte;
+        
+        printf("Please input your byte : ");
+        scanf("%d",&byte);
+
+        if(byte < 1024){
+            (sum = byte);
+            printf("Total : %d Byte\n", sum);
+        }else if(1048576 < byte >= 1024){
+            (sum = byte / 1024);
+            printf("Total : %d KB\n", sum);
+        }else if(1073741824 < byte >= 1048576){
+            (sum = byte / 1048576);
+            printf("Total : %d MB\n", sum);
+        }else if(byte >= 1073741824){
+            (sum = byte / 1073741824);
+            printf("Total : %d GB\n", sum);
+        }        
+        printf("Thank you\n");
+    
+}
